@@ -1,0 +1,18 @@
+/* 
+Padding is used to create space around an element's content,
+inside of any defined borders.
+
+
+*/
+
+main {
+    padding: 10px;
+    padding: 10px 30px;
+    padding: 10px 30px 10px;
+    padding: 10px 30px 10px 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding: auto;
+}

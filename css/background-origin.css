@@ -1,0 +1,29 @@
+/* 
+background-origin property specifies the origin position
+
+SYNTAX:
+
+    background-origin: padding-box|border-box|content-box|initial|inherit;
+
+VALUES:    
+
+    - padding-box - (Default) - The background image starts from the upper left corner of the padding edge
+    - border-box - The background image starts from the upper left corner of the border	
+    - content-box - The background image starts from the upper left corner of the content
+
+NOTE: This property has no effect if background-attachment is fixed
+
+*/
+
+body {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url('img_tree.gif');
+    background-repeat: no-repeat;
+    background-origin: content-box, padding-box;
+}
+
+
+
+
+

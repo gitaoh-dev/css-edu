@@ -1,0 +1,35 @@
+/* 
+Border CSS STYLES
+*/
+
+body {
+    border-style: dashed dotted solid inset;
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: hidden;
+    border-style: outset;
+    border-style: inset;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    border-block-style: inherit;
+    border-inline-style: initial;
+    border-block-start-style: inherit;
+    border-inline-start-style: dashed;
+
+    border-width: 10cm;
+    border-width: 10px 30px;
+    border-width: 10px 30px 20px 5px;
+
+
+    border-color: aliceblue;
+    border-color: white green yellow blue;
+
+    border-radius: 10px;
+    border-radius: 10px 10px 30px 50px;
+
+    border: 1px solid wheat;
+}

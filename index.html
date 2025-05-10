@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External CSS 
+    - Can Be shared among html documents 
+    - Can be more than one external stylesheet
+    -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+    <style>
+        /* Internal css
+        Only available in this HTML DOCUMENT
+        */
+        body {
+            background-color: aliceblue;
+        }
+        .highlight p {
+            /* Selects all p elements inside a html element with class hightlight */
+        }
+
+        p.highlight {
+            /* Selects all elements within a p tag with class highlight */
+        }
+    </style>
+</head>
+<!-- Inline CSS - Can be applied to every HTML element and have 
+as many styles as possible that will apply to that elements styling -->
+<body style="color: white;">
+    <!-- 
+    If a document had all the following styles which style would apply
+    first on the document
+
+    CASCADING ORDER 
+    1. Inline Style (inside a HTML element)
+    2. External and Internal stylesheets (in the head section)
+    3. Browser defaults
+    -->
+</body>
+</html>

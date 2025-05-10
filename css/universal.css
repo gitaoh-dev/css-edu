@@ -1,0 +1,11 @@
+/* 
+Selects all HTML elements on the page and applies the styles to each
+Element styling
+*/
+
+* {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,45 @@
+/* 
+
+- background-color specifies the color of the background of the element
+- 
+*/
+body {
+    background-color: aliceblue ;
+    background-image: url("") cross-fade();
+    background-repeat: repeat-y no-repeat;
+    background-position: top 40, left fixed;
+    /* background: ; */
+}
+
+/* 
+OPACITY
+- specifies the opacity/ transparency of an element
+- Ranges from 0.0 to 1.0 or 1 to 100 percent
+- The lower the value, the more transparent
+*/
+
+main {
+    opacity: 1;
+}
+
+
+/* 
+BACKGROUND shortcut
+
+SYNTAX
+
+    background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
+
+
+*/
+
+body {
+    /* background-color: #fff;
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top; */
+    background: #fff url("img_tree.png") no-repeat right top;
+}
+
+
+

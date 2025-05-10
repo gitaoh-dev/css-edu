@@ -1,0 +1,56 @@
+/*
+CSS element selector
+*/
+
+p {
+    color: red
+}
+
+div p {
+    color: red
+}
+
+
+/*
+CSS id selector
+*/
+
+#name {
+    color: red
+}
+
+p#name {
+    color: red;
+}
+
+
+/*
+CSS class selector
+*/
+
+.name {
+    color: red
+}
+
+p.name {
+    color: red;
+}
+
+
+/* 
+CSS Grouping selector
+*/
+/* Instead of */
+h1 {
+    color: red
+}
+
+p {
+    color: red
+}
+/* DO this - This is the same as above, can be as many selectors as
+possible
+*/
+p, h1 {
+    color: red
+}

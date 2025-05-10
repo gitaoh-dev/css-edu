@@ -1,0 +1,23 @@
+/*
+HSL stands for HUE, SATURATION, LIGHTNESS
+
+hsl(hue, saturation, lightness)
+
+HUE - degree on the color wheel from 0 to 360.
+        - 0 is red
+        - 120 is green
+        - 240 is blue
+
+SATURATION - is percentage value 0% means a shade of gray and 100%
+            is the full color
+
+
+LIGHTNESS - is a percentage value - 0% is black, 50% is neither light or dark, 100% is white
+
+
+*/
+
+body {
+    background-color: hsl(29, 47%, 43%);
+    background: hsla(29, 47%, 65%, 0.0);
+}

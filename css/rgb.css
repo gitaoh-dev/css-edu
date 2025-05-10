@@ -1,0 +1,22 @@
+/* 
+RGB represents RED GREEN BLUE
+
+FORMULA 1
+
+    rgb(red, green, blue)
+
+Each parameter defines the intensity of the color between 0 and 255
+    eg: rgb(255, 0, 255)
+
+FORMULA 2
+
+    rgba(red, green, blue, alpha)
+
+    eg: rgb(255, 0, 255, 0.5)
+*/
+
+body {
+    background-color: rgb(255, 243, 03);
+    color: rgb(from white 34 123 78);
+    border-color: rgba(45, 131, 98, 0.9);
+}

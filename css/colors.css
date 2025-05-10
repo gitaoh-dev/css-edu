@@ -1,0 +1,29 @@
+/* 
+
+Colors are specified using predefined 
+- color names
+- RGB
+- HEX
+- HSL
+- RGBA
+- HSLA values.
+*/
+
+body {
+    background-color: aliceblue; /* Background Color for HTML elements */
+    color: red; /* Text Color */
+    border-color: yellow; /* Border Color */
+    caret-color: dodgerblue;
+}
+
+/* COLOR VALUES
+
+REPRESENTATION OF color name 'TOMATO'
+- rgb(255, 99, 71)
+- #ff6347
+- hsl(9, 100%, 64%)
+
+ADD 50% transparency
+- rgba(255, 99, 71, 0.5)
+- hsla(9, 100%, 64%, 0.5)
+*/

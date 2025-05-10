@@ -1,0 +1,24 @@
+/* 
+A hexadecimal color is specified with: #RRGGBB,
+where the RR (red), GG (green) and BB (blue) hexadecimal 
+integers specify the components of the color.
+
+#rrggbb
+
+- Hexdecimal values are between 00 and ff (same as decimal 0-255)
+
+eg: #ff0000 - red because red if set to (ff) the highest value and others
+are set to the lowest value (00)
+
+- 3-DIGIT HEX value
+
+# rgb
+
+#ffoocc can also be #foc
+
+*/
+
+body {
+    background-color: #fff093;
+    color: #efe; /* 3 digit value */
+}

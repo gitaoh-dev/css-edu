@@ -1,0 +1,22 @@
+/* 
+Background-Image property specifies an image to use as the backgound
+of an element
+
+background-image: url("image");
+background-image: url("img_tree.gif"), url("paper.gif");
+
+@see https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-image
+
+By default the backgroudnd-image property repeats an image on both
+horizontal and vertical
+*/
+
+body {
+    background-image: url("image.jpg");
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: no-repeat; */
+    background-repeat: round;
+    background-repeat: space;
+    background-position: right top;
+}

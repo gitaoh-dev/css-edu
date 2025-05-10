@@ -1,0 +1,13 @@
+/* 
+Background-attachment propety specifies whether the background
+image should scroll or be fixed (will not scroll with the rest of
+the page)
+*/
+
+body {
+    background-image: url('image_tree.svg');
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+    background-position: right top;
+}
