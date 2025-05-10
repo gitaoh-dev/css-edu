@@ -1,0 +1,105 @@
+/* 
+color property is used to set the color of the text
+Specified by:
+
+- name - red
+- hex value - #fff
+- rgb - rgb(255, 0,0)
+
+
+Important: High contrast is very important for people with vision 
+problems. So, always ensure that the contrast between the 
+text color and the background color (or background image) is good!
+*/
+h1 {
+    color: aliceblue;
+    color: #fff;
+    color: rgba(40, 20, 12, 0.4);
+    color: hsl(30, 40%, 50%);
+    background-color: white;
+}
+
+/* 
+Text Alignment and Text Direction
+- text-align
+- text-align-last
+- direction
+- unicode-bidi
+- vertical-align
+
+*/
+
+div {
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: start;
+    text-align: end;
+    text-align: justify;
+
+    text-align-last:left;
+    text-align-last:center;
+    text-align-last:right;
+    text-align-last:justify;
+    text-align-last:auto;
+    text-align-last:unset;
+
+    direction: ltr;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    unicode-bidi: embed;
+    unicode-bidi: isolate;
+    unicode-bidi: isolate-override;
+    unicode-bidi: plaintext;
+    unicode-bidi: normal;
+
+    vertical-align: baseline;
+    vertical-align: bottom;
+    vertical-align: middle;
+    vertical-align: sub;
+    vertical-align: super;
+    vertical-align: text-bottom;
+    vertical-align: text-top;
+    vertical-align: top;
+    vertical-align: auto;
+
+    /* Text Decoration */
+    text-decoration: line-through dashed aliceblue 30px;
+
+    text-decoration-line: line-through;
+    text-decoration-line: none;
+    text-decoration-line: overline;
+    text-decoration-line: underline;
+    text-decoration-line: unset;
+
+    text-decoration-color: #fff;
+    text-decoration-color: rgba(40, 20, 12, 0.4);
+    text-decoration-color: hsl(30, 40%, 50%);
+
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-decoration-style: double;
+    text-decoration-style: solid;
+    text-decoration-style: wavy;
+
+    text-decoration-thickness: initial;
+ 
+    /* Text Transform */
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: none;
+    text-transform: capitalize;
+
+    /* Text Spacing */
+    text-indent: 10px;
+    letter-spacing: 10px;
+    line-height: 10px;
+    word-spacing: 10px;
+    white-space: nowrap;
+    white-space: wrap;
+
+    /* Text Shadow */
+    text-shadow: 2px 3px;
+    text-shadow: 2px 3px red;
+    text-shadow: 2px 3px 5px red;
+}

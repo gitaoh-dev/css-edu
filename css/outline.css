@@ -1,0 +1,113 @@
+/* 
+An OutLine is a line drawn outside the elements border
+
+PROPERTIES:
+- outline-style
+- outline-width
+- outline-color
+- outline
+- outline-offset
+
+Note: Outline differs from borders! Unlike border,
+the outline is drawn outside the element's border,
+and may overlap other content. Also, the outline is NOT a
+part of the element's dimensions; the element's total width and
+height is not affected by the width of the outline.Note: Outline 
+differs from borders! Unlike border, the outline is drawn outside 
+the element's border, and may overlap other content. Also, the
+outline is NOT a part of the element's dimensions; the element's 
+total width and height is not affected by the width of the outline
+
+*/
+
+div {
+
+    /* 
+    dotted - Defines a dotted outline
+    dashed - Defines a dashed outline
+    solid - Defines a solid outline
+    double - Defines a double outline
+    groove - Defines a 3D grooved outline
+    ridge - Defines a 3D ridged outline
+    inset - Defines a 3D inset outline
+    outset - Defines a 3D outset outline
+    none - Defines no outline
+    hidden - Defines a hidden outline    
+    */
+    outline-style: dashed;
+    outline-style: dotted;
+    outline-style: solid;
+    outline-style: groove;
+    outline-style: inset;
+    outline-style: outset;
+    outline-style: hidden;
+    outline-style: none;
+    outline-style: double;
+    outline-style: ridge;
+    outline-style: unset;
+    /* 
+    Note: None of the other outline properties 
+    (which you will learn more about in the next chapters)
+    will have ANY effect unless the outline-style property is set! 
+    */
+
+    /* 
+
+    outline-width property specifies the width of the outline and can
+    have one of the following values;
+
+    - thin(1px)
+    - medium (3px)
+    - thick (5px)
+    - specific size(in px,cm,em,etc..)
+    
+    */
+    outline-width: thin;
+    outline-width: thick;
+    outline-width: medium;
+    outline-width: unset;
+    outline-width: 10px;
+
+
+    /* 
+    outline-color propery is used to set the color of the outline
+
+    color can be set by: 
+    - name: red
+    - HEX - #ff0000
+    - RGB - rgb(244, 34, 0)
+    - HSL - hsl(0, 100%, 50%)
+    - invert - performs a color inversion which ensures 
+    that the outline is visible regardless of color background
+    */
+
+    outline-color: aliceblue;
+    outline-color: #fff;
+    outline-color: rgb(10, 30, 40);
+    outline-color: hsl(10, 40%, 100%);
+
+    /* 
+    
+    outline property is a shorthand property fr setting the following
+    individual outline properties
+    - outline-width
+    - outline-style(required)
+    - outline-color
+
+    */
+
+    outline: 10px solid #fff;
+    outline: thick dotted hsl(30, 12%, 50%);
+    outline: thin solid deepskyblue;
+    outline: invert ridge rgba(45, 12, 89, 0.5);
+
+    /* 
+    outline-offset property adds space between an outline and the edge/border of
+    and element
+
+    the space between and element and its outline is transparent
+    
+    */
+
+    outline-offset: 15px;
+}
