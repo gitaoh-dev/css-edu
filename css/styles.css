@@ -1,5 +1,5 @@
 /**
-CSS selectore
+CSS selector
 - Simple selectores eg name, id, class
 - Combinator selectors are based on a specific relationship between them
 - pseudo-class selectors are based on certain state
@@ -7,4 +7,8 @@ CSS selectore
 - Atribute selectors are based on an attribute or attribute value
 
 */
+
+b {
+    border-bottom-right-radius: ;
+}
 

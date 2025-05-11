@@ -1,0 +1,88 @@
+/* Descendant Combinator */
+div p {
+	/* Selects all p tags inside a div */
+	/* 
+    
+    Selects all <p> elements that are the direct children of the <div>
+    
+    <div>
+    <p>Yes</p>
+    <p>Yes</p>
+    
+    <section>
+        <p>Yes</p>
+    </section/>
+
+    <p>Yes</p>
+    </div>
+    
+    */
+	color: wheat;
+}
+
+/* Child Combinator */
+div > p {
+	/* 
+    
+    Selects all <p> elements that are the direct children of the <div>
+    
+    <div>
+    <p>Yes</p>
+    <p>Yes</p>
+    
+    <section>
+        <p>Not Selected</p>
+    </section/>
+
+    <p>Yes</p>
+    </div>
+    
+    */
+	color: aqua;
+}
+
+/* Next Sibling Combinator + */
+div + p {
+	/*
+       Selects an element that is directly after another specific element
+       -> This combinator selects the first <p> element that are placed immediately after <div> elements
+
+    <p>
+        Yess
+    </p>
+
+    <div>
+    <p>Paragraph 1 in the div.</p>
+    <p>Paragraph 2 in the div.</p>
+    </div>
+
+    <p>Paragraph 3. After a div.</p>
+    <p>Paragraph 4. After a div.</p>
+
+    <div>
+    <p>Paragraph 5 in the div.</p>
+    <p>Paragraph 6 in the div.</p>
+    </div>
+
+    <p>YES</p>
+    */
+	color: blueviolet;
+}
+
+
+div ~ p {
+    /* Select all <p> elements that are next siblings of <div> elements
+    
+    <p>Paragraph 1.</p>
+
+    <div>
+    <p>Paragraph 2.</p>
+    </div>
+
+    <p>Yes</p>
+    <code>Some code.</code>
+    <p>Yes</p>
+    */
+    color: yellow;
+
+}

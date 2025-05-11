@@ -1,0 +1,18 @@
+div:hover {}
+div:hover p {}
+
+div:first-child {
+    /* Matches a specified element that is the first child of another element */
+}
+
+div::first-line {}
+div::first-letter {}
+div::after {}
+div::before {}
+div::backdrop {}
+div::content {}
+div::checkmark {}
+div::cue {}
+div::cue-region {}
+div::file-selector-button {}
+div::details-content {}
