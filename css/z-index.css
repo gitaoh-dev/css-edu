@@ -1,0 +1,10 @@
+/* 
+
+The z-index property specifies the stack order of an element.
+
+*/
+div {
+    z-index: 100;
+    z-index: inherit;
+    z-index: calc(30 - 2);
+}

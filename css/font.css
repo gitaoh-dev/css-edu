@@ -1,0 +1,108 @@
+/* Fonts
+
+Gemeric Font Families
+- serif - Have a small stroke at the edges of each letter, they create a sense of formality and elegance
+- sans-serif - Have clean lines with no small strokes attached, they create a modern and minimalistic look
+- Monospace fonts - have all letters have the same fixed width, they create a mechanical look
+- cursive fonts imitate human handwriting
+- Fantasy fonts are decorative/playful fonts
+
+Web Safe Fonts:
+- Arial (sans-serif)
+- Verdana (sans-serif)
+- Tahoma (sans-serif)
+- Trebuchet MS (sans-serif)
+- Times New Roman (serif)
+- Georgia (serif)
+- Garamond (serif)
+- Courier New (monospace)
+- Brush Script MT (cursive)
+
+*/
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: serif;
+    font-family: sans-serif;
+    font-family: fantasy;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: unset;
+
+    font-style: italic;
+    font-style: normal;
+    font-style: oblique;
+
+    font-weight: 100;
+    font-weight: 200;
+    font-weight: 300;
+    font-weight: 400;
+    font-weight: 500;
+    font-weight: 600;
+    font-weight: 700;
+    font-weight: 800;
+    font-weight: 900;
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: lighter;
+    font-weight: normal;
+
+    font-variant: normal;
+    font-variant: small-caps;
+
+    font-variant-alternates: annotation();
+    font-variant-alternates: ornaments();
+    font-variant-alternates: historical-forms;
+    font-variant-alternates: character-variant();
+    font-variant-alternates: normal;
+    font-variant-alternates: styleset();
+    font-variant-alternates: stylistic();
+    font-variant-alternates: swash();
+
+    font-variation-settings: inherit;
+    font-variant-ligatures: additional-ligatures;
+    font-variant-emoji: emoji;
+    font-variant-emoji: normal;
+    font-variant-emoji: text;
+    font-variant-emoji: unicode;
+
+    font-variant-caps: all-petite-caps;
+    font-variant-caps: all-small-caps;
+    font-variant-caps: petite-caps;
+    font-variant-caps: small-caps;
+    font-variant-caps: titling-caps;
+    font-variant-caps: unicase;
+
+    font-variant-numeric: oldstyle-nums;
+    font-variant-east-asian: jis04;
+    font-kerning: auto;
+
+    font-size: large;
+    font-size: larger;
+    font-size: medium;
+    font-size: small;
+    font-size: smaller;
+    font-size: x-small;
+    font-size: xx-small;
+    font-size: xx-large;
+    font-size: 10px;
+    font-size: 3rem;
+    font-size: 4em;
+    font-size: 100%;
+    font-size: 10vw;
+    font-size: 5cqi;
+
+    font: italic small-caps bold 12px/30px Georgia, serif;
+
+
+}

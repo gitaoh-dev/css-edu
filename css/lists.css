@@ -1,0 +1,30 @@
+/* 
+Ordered or Unordered Lists
+*/
+
+ul, ol {
+    list-style: circle inside url();
+    list-style-type: circle;
+    list-style-type: disc;
+    list-style-type: upper-alpha;
+    list-style-type: armenian;
+    list-style-type: decimal;
+    list-style-type: decimal-leading-zero;
+    list-style-type: lower-alpha;
+    list-style-type: lower-greek;
+    list-style-type: lower-latin;
+    list-style-type: lower-roman;
+    list-style-type: georgian;
+    list-style-type: square;
+    list-style-type: upper-latin;
+    list-style-type: upper-roman;
+    list-style-type: symbols("");
+    list-style-type: none;
+
+    list-style-position: outside;
+    list-style-position: inside;
+
+    list-style-image: url("");
+
+
+}

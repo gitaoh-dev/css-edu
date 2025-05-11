@@ -1,0 +1,7 @@
+div {
+	position: absolute; /* Is positioned relative to the nearest positioned ancestor - instead of positioned relative to the viewport, like fixed */
+	position: relative; /* Setting top, right, bottom and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position */
+	position: fixed; /* Stays in the same place even if the age is scrolled, the top, right and left properties are used to position the element */
+	position: static; /* Static positioned element are not affected by the top, bottom, left and right properties */
+	position: sticky; /* Is Positioned based on he user's scroll position */
+}

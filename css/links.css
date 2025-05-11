@@ -1,0 +1,22 @@
+/* 
+Links can be styled by any css property
+
+State:
+- a:link - a normal, unvisited link
+- a:visited - a link the user has visited
+- a:hover - a link when the user mouses over it
+- a:active - a link the moment it is clicked
+
+Rules:
+- a:hover MUST come after a:link and a:visited
+- a:active MUST come after a:hover
+*/
+
+a {
+    color: red;
+    text-decoration-line: none;
+}
+a:link {}
+a:visited {}
+a:hover {}
+a:active{}

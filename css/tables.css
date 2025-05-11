@@ -1,0 +1,40 @@
+div {
+    overflow-x: auto;
+}
+table {
+	width: 100%;
+
+	border-collapse: collapse;
+	border-collapse: separate;
+
+	border: 1px solid;
+}
+
+td {
+	text-align: center;
+}
+
+th {
+	width: 70px;
+	vertical-align: center;
+}
+
+td,
+th {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+	background-color: coral;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+th {
+	background-color: #04aa6d;
+	color: white;
+}
